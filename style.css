@@ -3,7 +3,29 @@ Style Sheet for Basic Personal Website
 By: Kaleb Gearinger
 */
 
+/* Body Styling */
 body {
     background-color: #c41e3a;
     color: white;
+}
+
+/* Styling for Links */
+a {
+    color: white;
+}
+
+/* Links turn black when hovered over */
+a:hover {
+    color: black;
+}
+
+hr {
+    background-color: white;
+    height: 5px;
+    border-style: none;
+    border-width: 10px;
+}
+
+form {
+    background-color: grey;
 }
